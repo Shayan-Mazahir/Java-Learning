@@ -10,4 +10,4 @@
 Thanks for choosing my repo!
 
 
-_side note for my self: to run the code, run java <pkg name> on console on the mother/root directory_
+_side note for my self: to run the code, run java "pkg name" on console on the mother/root directory_

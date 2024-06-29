@@ -8,3 +8,6 @@
  I will try my best to give credit where needed, if I forget to give any credit please open an issue or DM me on Discord: mr.raza or open an issue
 
 Thanks for choosing my repo!
+
+
+_side note for my self: to run the code, run java <pkg name> on console on the mother/root directory_

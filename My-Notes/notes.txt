@@ -1,0 +1,17 @@
+1. For classes, we use Pascal Convention. The first and Subsequent characters from a word are capital letters (uppercase).
+    Example: Main, MyScanner, MyEmployee, CodeWithHarry
+
+    For functions and variables, we use camelCaseConvention. Here the first character is lowercase, and the subsequent characters are uppercase like myScanner, myMarks, CodeWithHarry
+
+2.  You can use a snakecase though its not recommended to use, it will probably work without any problem
+
+3.  Adding either an L or an f for literals is a "java" thing (refer to convo in Programmers hangout: https://canary.discord.com/channels/244230771232079873/244238304613105664/1256643829444902955)
+
+4.  double is 64 bits, float is 32 bits - main differnece between float and double
+
+5.  new Scanner for input basically means that we are taking the template of the object "Scanner" and then making our own copy of that object/template to use. 
+
+6.  for the new scanner the variable name can be anything, suppose it like a tree, with the variable being the stem of the tree and the places it is being used are the branches of that tree
+
+7.  the HAS basically does what it says, it checks if the input or variavle has what we want it to be (validity of the program)
+8.  next() only reads the words befreo the space, nextLine() reads pretty much everything

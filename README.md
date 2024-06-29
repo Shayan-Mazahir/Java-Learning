@@ -10,4 +10,5 @@
 Thanks for choosing my repo!
 
 
-_side note for my self: to run the code, run java "pkg name" on console on the mother/root directory_
+_side note for my self: to run the code, type "javac [filename] and press "Enter" to compile the program.
+type "java [filename]" and press "Enter" to run the Java program after it is compiled._

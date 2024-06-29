@@ -14,4 +14,9 @@
 6.  for the new scanner the variable name can be anything, suppose it like a tree, with the variable being the stem of the tree and the places it is being used are the branches of that tree
 
 7.  the HAS basically does what it says, it checks if the input or variavle has what we want it to be (validity of the program)
+
 8.  next() only reads the words befreo the space, nextLine() reads pretty much everything
+
+9.  % = Modulo and gives us the remainder 
+
+10. && = your fav, the and operator and || = or

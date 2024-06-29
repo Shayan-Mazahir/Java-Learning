@@ -1,0 +1,2 @@
+1. Bitwise operators & and |
+2. Will we use the DMAS rule while solving or know the associativity? 

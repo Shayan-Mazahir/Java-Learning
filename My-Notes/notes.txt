@@ -20,3 +20,32 @@
 9.  % = Modulo and gives us the remainder 
 
 10. && = your fav, the and operator and || = or
+
+11. Result = byte + short -> integer
+    Result = short + integer -> integer
+    Result = long + float -> float
+    Result = integer + float -> float
+    Result = character + integer -> integer
+    Result = character + short -> integer
+    Result = long + double -> double
+    Result = float + double -> double
+
+12. Java does not read input as a Character, it will always be a String, use charAt() and use the string as list
+
+13. For pretty formating we can use printf, there is no such thing as printlnf.. for a new line u need to use \n within the "" before u give the variable name. the different variable and how to use are:
+    %d = integer
+    %f = float and double (use %.15f or something for decimal places)
+    %c = character
+    %s = string
+
+14. String function/types
+    .trim() is used to remove whitespaces
+    .substring(intital value, endng value) number ofc be int
+    .replace('character_1', 'character_2') replaces 1 with 2
+    .startsWith("string/character") true if its same
+    .endsWith("string"/character) true if ends same
+    .charAt() character at.. works like a list for string
+    .indexOf("character", number of index) sees when thet character/string is starting from the index provided, so if the string is "Raza" and indexOf('a', 2) would give 3, and indexOf('a', 1) would give 1
+    .lastIndexOf("string/character", number of index) so if the string is "Raza" and lastIndexOf("az", 3) the output would be 1, so it checks before the index 3... like Raza it checks from left to right 3 2 1 0
+    .equals("string"/'character') checks if its equal to the same thing
+    .equalsIgnoreCase() does the same thing as before just ingores any case 

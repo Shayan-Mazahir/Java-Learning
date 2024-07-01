@@ -4,11 +4,23 @@
 # Notes
  All the notes in my repo is credited to [CodeWithHarry](https://www.codewithharry.com/). My own notes are in the folder named as: _My-Notes_. 
 
+# Documentation (Docs) 
+The **Official Documentation** for Java can be found [here](https://docs.oracle.com/en/java/). If you want a more **_friendly_** documentations, it can be found [here](https://www.tutorialspoint.com/java/index.htm). 
+
+# How to run the code? 
+> 1. Open command prompt 
+> 2. Navigate to the file where your code (.java) file is located
+> 3. Run:
+```
+javac <file_name>
+```
+> 4. Then run:
+```
+java <fille_name>
+```
+
 # Copyright
  I will try my best to give credit where needed, if I forget to give any credit please open an issue or DM me on Discord: mr.raza.
 
 Thanks for choosing my repo!
 
-
-_side note for my self: to run the code, type "javac [filename] and press "Enter" to compile the program.
-type "java [filename]" and press "Enter" to run the Java program after it is compiled._

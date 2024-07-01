@@ -1,2 +1,3 @@
 1. Bitwise operators & and |
-2. Will we use the DMAS rule while solving or know the associativity? 
+2. Will we use the DMAS rule while solving or know the associativity?
+3. Do we need to know about (notes.txt point 11) 

@@ -48,4 +48,12 @@
     .indexOf("character", number of index) sees when thet character/string is starting from the index provided, so if the string is "Raza" and indexOf('a', 2) would give 3, and indexOf('a', 1) would give 1
     .lastIndexOf("string/character", number of index) so if the string is "Raza" and lastIndexOf("az", 3) the output would be 1, so it checks before the index 3... like Raza it checks from left to right 3 2 1 0
     .equals("string"/'character') checks if its equal to the same thing
-    .equalsIgnoreCase() does the same thing as before just ingores any case 
+    .equalsIgnoreCase() does the same thing as before just ingores any case
+
+15. For siwtch case there are two types of cases, an enchanced siwtch case and a normal switch case, the enchance switch case works like:
+    case 9 -> System.out.println("Number is 9"); //this is java specific
+    while the normal switch case works like:
+    case 9:
+        System.out.println("Number is 9");
+
+16. A do-while loop will execute ONCE even if the condition is FALSE

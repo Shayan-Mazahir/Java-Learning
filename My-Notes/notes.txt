@@ -57,3 +57,30 @@
         System.out.println("Number is 9");
 
 16. A do-while loop will execute ONCE even if the condition is FALSE
+
+17. A for-loops syntax is:
+    for (<start>; <end>; <add>) {
+        //the checks or other part of the code
+    }
+
+18. The "continue" statement basically skips that specific iteration, for if the continue is for 2, it will skip 2 and move on to 3. 
+    The "break" statement, well it breaks outside of the loop
+
+19. Array starts their counting with 0, u define them starting from 0... like an array of 5 would be defined as:
+    int [] marks = new int[5];
+    while using them, you only will be able to use them till 4, as the counting starts from 0
+
+20. Three ways to define an array:
+    1. int [] marks = new int[5]; -> Declare + Memory allocation
+    2. int [] marks; -> Declare
+       marks = new int[5]; -> Memory allocation
+    3. int [] marks = {100, 80, 70, 30, 10}; -> Declare +Initialize
+
+21. The for each loop syntax is:
+    for (int element: <arrays name>) {
+        // and then we use the lement to do the stuff
+    }
+22. 2-D or more arrays are defined like this:
+    int [] [] flats; //2-d
+    flats = new int [2][3];
+    //this basically means that there are 2 ROWS and 3 COLUMNS being made

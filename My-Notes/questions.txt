@@ -2,3 +2,4 @@
 2. Will we use the DMAS rule while solving or know the associativity?
 3. Do we need to know about (notes.txt point 11) 
 4. Can we use java specific switch case?
+5. Which loop will we more focus on?

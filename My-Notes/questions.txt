@@ -3,3 +3,4 @@
 3. Do we need to know about (notes.txt point 11) 
 4. Can we use java specific switch case?
 5. Which loop will we more focus on?
+6. We are going to use the element method for arrays?

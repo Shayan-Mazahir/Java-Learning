@@ -2,7 +2,7 @@
  This repo contains my journey in learning Java.
 
 # Notes
- All the notes in my repo is credited to [CodeWithHarry](https://www.codewithharry.com/). My own notes are in the folder named as: _My-Notes_. 
+ All the notes in my repo is credited to [CodeWithHarry](https://www.codewithharry.com/). My own notes are in the folder named as: [_My-Notes_](https://github.com/Shayan-Mazahir/Java-Learning/tree/main/My-Notes). 
 
 # Documentation (Docs) 
 The **Official Documentation** for Java can be found [here](https://docs.oracle.com/en/java/). If you want a more **_friendly_** documentations, it can be found [here](https://www.tutorialspoint.com/java/index.htm). 

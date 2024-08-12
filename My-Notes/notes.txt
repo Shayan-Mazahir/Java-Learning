@@ -76,11 +76,16 @@
        marks = new int[5]; -> Memory allocation
     3. int [] marks = {100, 80, 70, 30, 10}; -> Declare +Initialize
 
-21. The for each loop syntax is:
+21. The for-each loop syntax is:
     for (int element: <arrays name>) {
-        // and then we use the lement to do the stuff
+        // and then we use the element to do the stuff
     }
 22. 2-D or more arrays are defined like this:
     int [] [] flats; //2-d
     flats = new int [2][3];
     //this basically means that there are 2 ROWS and 3 COLUMNS being made
+23. We need to use an [i] in a for-each loop while accessing any 2-D or more array.
+            for (int i = 0; i < array_1.length; i++) {
+                for (int j = 0; j < array_1[i].length; j++) {}
+            }
+    This is ensuring that the code is running through EACH row and COLUMNS in the code.

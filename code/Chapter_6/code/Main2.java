@@ -11,5 +11,14 @@ public class Main2 {
         flats[1][0] =  201;
         flats[1][1] =  202;
         flats[1][2] =  203;
+
+        System.out.print("Printing using for loop \n");
+        for (int i = 0; i < flats.length; i++) {
+            for (int j = 0; j < flats[i].length; j++) {
+                System.out.print(flats[i][j]);
+                System.out.println();
+            }
+            System.out.println("");
+        }
     }
 }

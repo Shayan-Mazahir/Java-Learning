@@ -212,6 +212,7 @@ static int sum(int x, int ...arr){
     }
 ```
 ## Object Oriented Language/Programming
+(It's a concept which explain a way to do programming)
 - So basically OOP means making a big function and having sub functions in that function... (dk why google makes it so complicated)
 
 # Proper Defination:
@@ -235,4 +236,42 @@ Instantiation means: creating a spcific example or instance of something
 - Inheritence -> The act of driving new things from exsisting thing.
 - Polymorphism -> One entity many forms (basically one thing which has other things) e.g
     Smartphone - Phone || Smartphone - Calculator
-- 
+
+# Custom Class
+35. Syntax:
+```java
+class Employee {
+    int id; //Attribute 1
+    String name; //Attribute 2 
+}
+```
+    There can only be one "public" class in a file.
+36. We can add functions to classes as well
+```java
+class Employee {
+    int id;
+    String name;
+    //function/method
+    public void details() {
+        //code for the function/method
+    }
+    public int get_salary() {
+        //code for the function
+    }
+}
+```
+# How to use a Custom Class?
+37. In the code make a new object:
+```java
+Employee ahmed = new Employee();
+```
+    Give it some properties (if applicable)
+```java
+ahmed.id = 99;
+ahmed.name = "Ahmed Mustafa";
+```
+    Print it (SOUT); or use a function for printing
+```java
+System.out.print(ahmed.id);
+ahmed.details();
+```

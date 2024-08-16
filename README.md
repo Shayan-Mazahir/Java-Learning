@@ -18,7 +18,7 @@ javac <file_name>
 ```
 java <fille_name>
 ```
-
+- Side note, if you're on Visual Studio Code and are following [this](https://code.visualstudio.com/docs/languages/java) tutorial, press F5 to run; it will save you countless hours of problems.... 
 # Copyright
  I will try my best to give credit where needed, if I forget to give any credit please open an issue or DM me on Discord: mr.raza.
 

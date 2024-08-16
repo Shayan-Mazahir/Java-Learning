@@ -211,4 +211,28 @@ static int sum(int x, int ...arr){
         }
     }
 ```
-## Object Oriented Language
+## Object Oriented Language/Programming
+- So basically OOP means making a big function and having sub functions in that function... (dk why google makes it so complicated)
+
+# Proper Defination:
+- OOPS tries to map code instructions with real world making the code and easier to understand
+
+# Class
+- Class => Object Instantiation => Object
+Instantiation means: creating a spcific example or instance of something
+
+# Object
+- An object is an instantiation of a class. When a class is defined, a template (info) is defined. Memory is allocated only after object instantiation.
+
+# Modelling an OOP
+- Noun -> Class -> Employee
+- Adjective -> Attributes -> name, age, salary
+- Verb -> Methods -> getSalary(), increment()
+
+# Terminology
+- Abstraction -> Hiding internal details
+- Encapsulation -> The act of putting various componenets together (like a medicine pill)
+- Inheritence -> The act of driving new things from exsisting thing.
+- Polymorphism -> One entity many forms (basically one thing which has other things) e.g
+    Smartphone - Phone || Smartphone - Calculator
+- 

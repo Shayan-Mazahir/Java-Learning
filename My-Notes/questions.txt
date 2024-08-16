@@ -4,3 +4,5 @@
 4. Can we use java specific switch case?
 5. Which loop will we more focus on?
 6. We are going to use the element method for arrays?
+7. Are we gonna learn OOPS?
+8. Will we use the default modelling? (README.MD- Modelling an OOP)

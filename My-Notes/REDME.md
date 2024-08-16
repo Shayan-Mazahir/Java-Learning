@@ -201,4 +201,14 @@ static int sum(int x, int ...arr){
     Now, the program forces you to have a value.
 
 # Recursion
-34. 
+34. We can basically use the function inside of an function:
+```java
+    static int factorial(int n) {
+        if (n == 1) {
+            return 1; // Base case
+        } else {
+            return n * factorial(n - 1); // Recursive case
+        }
+    }
+```
+## Object Oriented Language

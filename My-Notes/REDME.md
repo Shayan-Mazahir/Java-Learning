@@ -138,3 +138,67 @@ System.out.print(array.length - 1)
     }
     ```
     This is ensuring that the code is running through EACH row and COLUMNS in the code.
+27. We can not print any array directly. We either need to use `Arrays.toString(array)` or we can loop inside the array's index to print it out.
+```java
+    System.out.print(array)
+```
+    This woud just print the memory allocation.
+```java
+import java.util.Arrays;
+System.out.print(Arrays.toString(array))
+//or
+System.out.print(array[i]) //while i being in some sort of loop
+```
+    This would print the element in the idnex of the array.
+
+## Methods (functions)
+
+28. Syntax for methods (functions):
+ ```java
+        dataType name(parameters) {
+            //logic for the function
+        }
+        return <whatever>;
+```
+29. We can define a function/method without telling the type of function it has to be. i.e Static or void. But for that we would need to:
+```java
+    Main obj = new Main();
+```
+    `New` creates an instance of a class, so it has to match the class name. The public class name has to match the name of the file
+30. A function will not change the value in a variable; but it will for an array.
+
+# Method Overloading: (Duplicate functions by the same name)
+31. A function can have the same name unless and until it has different parameters. This can not be done by changing the return or the type.
+```java
+void foo()
+void foo(int a)	//Overloaded function foo
+int foo(int a, int b)
+```
+    Like here, different parameters; same name.
+32. If we want our method(function) to have infinite parameters we can use:
+```java
+static int sum(int ...arr){
+
+    int result = 0;
+    for (int a: arr) {
+        result += a;
+    }
+        return result;
+}
+```
+    This is basically making all the parameters in form of an array and then using it in that manner.
+33. If we want to have a cumpulsary parameter in our function:
+```java
+static int sum(int x, int ...arr){
+
+    int result = x;
+    for (int a: arr) {
+        result += a;
+    }
+        return result;
+}
+```
+    Now, the program forces you to have a value.
+
+# Recursion
+34. 

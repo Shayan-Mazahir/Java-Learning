@@ -89,3 +89,6 @@
                 for (int j = 0; j < array_1[i].length; j++) {}
             }
     This is ensuring that the code is running through EACH row and COLUMNS in the code.
+
+24. We can use:
+    Integer.MAX_VALUE and Integer.MIN_VALUE to give our variable the GREATEST and LOWEST value possible.

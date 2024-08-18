@@ -153,6 +153,8 @@ System.out.print(array[i]) //while i being in some sort of loop
 
 ## Methods (functions)
 
+- We can only return 1 variable, to return more than 1; use an array
+
 28. Syntax for methods (functions):
  ```java
         dataType name(parameters) {

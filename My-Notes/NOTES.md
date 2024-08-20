@@ -277,3 +277,38 @@ ahmed.name = "Ahmed Mustafa";
 System.out.print(ahmed.id);
 ahmed.details();
 ```
+## Access Modifiers & Constructors
+
+### Access Modifiers
+- Specific where a property/method is accessible. There are 4 types of access modifiers in Java:
+1. Private
+2. Default 
+3. Protected
+4. Public
+
+### Getters and Setters
+- Getters -> Returns the value (accessors)
+- Setters -> Sets/Updates the value (mutators)
+
+Example:
+
+```java
+class Employee {
+
+    private int id;
+    private  String name;
+
+    public String getName(){
+        return this.name;
+    }
+    public void setName(String n){
+        this.name = n;
+    }
+    public void setId(int i){
+        this.id = i;
+    }
+    public int getId(){
+        return this.id;
+    }
+}
+```

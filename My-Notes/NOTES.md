@@ -98,7 +98,7 @@ _Had to make an md cause i was getting lost in the txt one 💀💀_
 
 ## Arrays
 
-# With arrays; when uding a built-in function like `.length`, make sure that the function "counting" starts from 0 and not 1. If they do -1 from it. See example below:
+### With arrays; when using a built-in function like `.length`, make sure that the function "counting" starts from 0 and not 1. If they do -1 from it. See example below:
 ```java
 int [] array = {1, 2, 3, 4, 5, 6};
 System.out.print(array.length) 

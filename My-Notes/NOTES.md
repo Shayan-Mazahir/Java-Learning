@@ -103,12 +103,12 @@ _Had to make an md cause i was getting lost in the txt one 💀💀_
 int [] array = {1, 2, 3, 4, 5, 6};
 System.out.print(array.length) 
 ```
-# This would print 6 as the answer; meaning it counts from `1`. So, when using the function in a loop we would:
+#### This would print 6 as the answer; meaning it counts from `1`. So, when using the function in a loop we would:
 ```java
 int [] array = {1, 2, 3, 4, 5, 6};
 System.out.print(array.length - 1)
 ```
-# To ensure this will work as we intend it to.
+### To ensure this will work as we intend it to.
 
 22. Array indexing starts at 0. Meaning the `counting` starts from 0.
 
@@ -202,7 +202,7 @@ static int sum(int x, int ...arr){
 ```
     Now, the program forces you to have a value.
 
-# Recursion
+## Recursion
 34. We can basically use the function inside of an function:
 ```java
     static int factorial(int n) {
@@ -217,29 +217,29 @@ static int sum(int x, int ...arr){
 (It's a concept which explain a way to do programming)
 - So basically OOP means making a big function and having sub functions in that function... (dk why google makes it so complicated)
 
-# Proper Defination:
+## Proper Defination:
 - OOPS tries to map code instructions with real world making the code and easier to understand
 
-# Class
+## Class
 - Class => Object Instantiation => Object
 Instantiation means: creating a spcific example or instance of something
 
-# Object
+## Object
 - An object is an instantiation of a class. When a class is defined, a template (info) is defined. Memory is allocated only after object instantiation.
 
-# Modelling an OOP
+## Modelling an OOP
 - Noun -> Class -> Employee
 - Adjective -> Attributes -> name, age, salary
 - Verb -> Methods -> getSalary(), increment()
 
-# Terminology
+## Terminology
 - Abstraction -> Hiding internal details
 - Encapsulation -> The act of putting various componenets together (like a medicine pill)
 - Inheritence -> The act of driving new things from exsisting thing.
 - Polymorphism -> One entity many forms (basically one thing which has other things) e.g
     Smartphone - Phone || Smartphone - Calculator
 
-# Custom Class
+## Custom Class
 35. Syntax:
 ```java
 class Employee {
@@ -247,7 +247,7 @@ class Employee {
     String name; //Attribute 2 
 }
 ```
-    There can only be one "public" class in a file.
+   There can only be one "public" class in a file.
 36. We can add functions to classes as well
 ```java
 class Employee {
@@ -262,17 +262,17 @@ class Employee {
     }
 }
 ```
-# How to use a Custom Class?
+## How to use a Custom Class?
 37. In the code make a new object:
 ```java
 Employee ahmed = new Employee();
 ```
-    Give it some properties (if applicable)
+   Give it some properties (if applicable)
 ```java
 ahmed.id = 99;
 ahmed.name = "Ahmed Mustafa";
 ```
-    Print it (SOUT); or use a function for printing
+   Print it (SOUT); or use a function for printing
 ```java
 System.out.print(ahmed.id);
 ahmed.details();

@@ -285,7 +285,7 @@ ahmed.details();
 2. Default 
 3. Protected
 4. Public
-[See this](https://github.com/Shayan-Mazahir/Java-Learning/blob/main/My-Notes/Screenshot%202024-08-20%20at%2015-35-28%20Controlling%20Access%20to%20Members%20of%20a%20Class%20(The%20Java%E2%84%A2%20Tutorials%20Learning%20the%20Java%20Language%20Classes%20and%20Objects).png)
+ - [See this](https://github.com/Shayan-Mazahir/Java-Learning/blob/main/My-Notes/Screenshot%202024-08-20%20at%2015-35-28%20Controlling%20Access%20to%20Members%20of%20a%20Class%20(The%20Java%E2%84%A2%20Tutorials%20Learning%20the%20Java%20Language%20Classes%20and%20Objects).png)
 
 ### Getters and Setters
 - Getters -> Returns the value (accessors)

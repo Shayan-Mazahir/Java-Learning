@@ -313,3 +313,30 @@ class Employee {
     }
 }
 ```
+### Private
+- The "private" in a class basically means you're making that specific variable or function limited to a specific class/function. [private means current class scope access only](https://canary.discord.com/channels/244230771232079873/244238304613105664/1275531659772559492)
+
+### Constructors
+- In a single package there can not be more than one Class with the SAME name.
+- A member function used to initialize an object while creating it. So, instead of writing:
+```java
+Employee name = new MyEmployee();
+ahmed.setName("Ahmed Mustafa");
+```
+We can simply just make a function in our class and use that instead of writing the same thing again and again.
+```java
+class MyEmployee{
+    //other stuff
+    public MyEmployee(){ //we can even have parameters if we want to
+        name = "Your-Name";
+        id = 99;
+        //and so on
+    }
+}
+```
+And to use it in the code, we can simply:
+```java
+MyEmployee ahmed = new MyEmployee2("Ahmed", 20);
+System.out.println(ahmed.getId());
+//something like that
+```

@@ -290,6 +290,7 @@ ahmed.details();
 ### Getters and Setters
 - Getters -> Returns the value (accessors)
 - Setters -> Sets/Updates the value (mutators)
+- Basically what it means is you need to have a set value and a get value... Thats it, a sub-class to get and to set... 
 
 Example:
 
@@ -340,3 +341,51 @@ MyEmployee ahmed = new MyEmployee2("Ahmed", 20);
 System.out.println(ahmed.getId());
 //something like that
 ```
+## Inheritance
+- It's an extension of the class, which can include "modifying"
+- In a nutshell its like a new class getting the features of an old class without having to change the old class to match the new class (for some reason that makes sense)
+
+### Syntax
+```java
+class Main {
+    //code
+}
+class Main2 extends Main {
+    //code
+}
+```
+- You need to add the term `extends` inorder to use `Inheritance`, see example below:
+```java
+class Base{
+    public int x;
+
+    public int getX() {
+        return x;
+    }
+
+    public void setX(int x) {
+        System.out.println("I am in base and setting x now");
+        this.x = x;
+    }
+
+    public void printMe(){
+        System.out.println("I am a constructor");
+    }
+}
+```
+- This is the main class
+
+```java
+class Derived extends Base{
+    public int y;
+
+    public int getY() {
+        return y;
+    }
+
+    public void setY(int y) {
+        this.y = y;
+    }
+}
+```
+- New class; WITH the features of Base class.

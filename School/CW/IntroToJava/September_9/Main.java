@@ -1,4 +1,4 @@
-package CW.IntroToJava.September_9;
+package School.CW.IntroToJava.September_9;
 
 public class Main {
     public static void main(String[] args) {

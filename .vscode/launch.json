@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main2",
+            "request": "launch",
+            "mainClass": "School.CW.IntroToJava.September_10.Main2",
+            "projectName": "Java-Learning_127afefa"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "School.CW.IntroToJava.September_9.Main",
+            "projectName": "Java-Learning_127afefa"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

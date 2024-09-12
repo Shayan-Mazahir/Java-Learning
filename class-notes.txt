@@ -5,3 +5,4 @@ fooBar(double) -> double (just like last year)
 and add a purpose (new thing)
 purpose: check if num is above or below 10. Return 0.5; if below 1.5 if above
 dont have a print in function
+you should also know about the bit and byte, how much can a data type store in it -- can come in the test 

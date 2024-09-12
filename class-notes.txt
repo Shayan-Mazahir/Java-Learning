@@ -1,0 +1,7 @@
+dont have spacing with else if statements :sobs:
+dont use breaks
+header comment for function... 
+fooBar(double) -> double (just like last year)
+and add a purpose (new thing)
+purpose: check if num is above or below 10. Return 0.5; if below 1.5 if above
+dont have a print in function

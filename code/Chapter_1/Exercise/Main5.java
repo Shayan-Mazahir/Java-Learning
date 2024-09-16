@@ -8,5 +8,6 @@ public class Main5 {
         System.out.print("Please enter a number: ");
         boolean check = input.hasNextInt();
         System.out.println(check);
+        input.close();
     }
 }

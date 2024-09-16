@@ -12,5 +12,6 @@ public class Main3 {
         String name = input.nextLine();
         //making sure the whole text an read and is not stopped at the spaces
         System.out.println("Hello " + name + ", have a great day!"); 
+        input.close();
     }
 }

@@ -1,18 +1,10 @@
-/*
-Assignment: Assignment 0
-Author: Syed Shayan Mazahir
-Date of last edit: 6 September 2024
-*/
+package School.CW.IntroToJava.September_16;
 
-// Importing the Scanner module to ask for input
-import java.util.Scanner;
-import java.util.Arrays; //it wasnt working on my laptop without importing this for some reason :/ (Im on Visual Studio Code and whatever is the latest java version)
+import java.util.Arrays;
 
-// Question 1
-// calculateShippingCost(int weight_input) -> double
-// Takes in the weight as an integer and returns the calculated shipping cost as a double.
-public class Assignment_0 {
-
+public class PracticeUtility {
+    
+    
     static double calculateShippingCost(int weight_input) {
         double shipping_cost = weight_input * 0.10;
 
@@ -38,16 +30,13 @@ public class Assignment_0 {
         if (income > 70000) {
             taxOwed += (income - 70000) * 0.35;  // 35% tax for income over 70,000
             income = 70000;
-        }
-        if (income > 40000) {
+        } if (income > 40000) {
             taxOwed += (income - 40000) * 0.25;  // 25% tax for income over 40,000
             income = 40000;
-        }
-        if (income > 20000) {
+        } if (income > 20000) {
             taxOwed += (income - 20000) * 0.15;  // 15% tax for income over 20,000
             income = 20000;
-        }
-        if (income > 10000) {
+        } if (income > 10000) {
             taxOwed += (income - 10000) * 0.10;  // 10% tax for income over 10,000
         }
 
@@ -99,39 +88,6 @@ public class Assignment_0 {
     }
 
     public static void main(String[] args) {
-        // Question 1: Shipping cost calculation
-        System.out.println("Question 1: Shipping Cost");
-        System.out.println("Please enter the weight: ");
-        Scanner input1 = new Scanner(System.in);
-        int weight_input = input1.nextInt();  // Read weight input from user
-        double cost = calculateShippingCost(weight_input);  // Calculate shipping cost
-        System.out.println("The shipping cost is: " + cost);
-
-        // Question 2: Tax calculation
-        System.out.println("\nQuestion 2: Tax Calculation");
-        System.out.println("Please enter your income: ");
-        Scanner input2 = new Scanner(System.in);
-        int income = input2.nextInt();  // Read income input from user
-        double tax = calculateTax(income);  // Calculate tax
-        System.out.print("The tax owed is: " + tax);
-
-        // Question 3: Palindrome check
-        System.out.println("\nQuestion 3: Palindrome Check");
-        System.out.println("Please enter your string: ");
-        Scanner input3 = new Scanner(System.in);
-        String inputString = input3.next();  // Read string input from user
-        boolean palindrome = isPalindrome(inputString);  // Check if the string is a palindrome
-        System.out.println("Is the string a palindrome? " + palindrome);
-
-        // Question 4: Sum difference calculation
-        System.out.println("\nQuestion 4: Sum Difference");
-        int[] numbers = {1, 2, 3, 4, 5, 6};  // Example array
-        int result = calculateSumDifference(numbers);  // Calculate sum difference
-        System.out.println("The result is: " + result);
-
-        // Close the scanners
-        input1.close();
-        input2.close();
-        input3.close();
+        
     }
 }

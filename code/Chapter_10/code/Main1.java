@@ -50,6 +50,7 @@ public class Main1 {
 
         // Create a ChildOfDerived object with three parameters
         ChildOfDerived cd = new ChildOfDerived(12, 13, 15);
+        
     }
 }
 

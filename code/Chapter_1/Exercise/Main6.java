@@ -13,5 +13,6 @@ public class Main6 {
         float height = input.nextFloat();
         float area = width * height;
         System.out.print("The area of the rectangle is: " + area);
+        input.close();
     }
 }

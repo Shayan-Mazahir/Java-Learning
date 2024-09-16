@@ -21,5 +21,6 @@ public class Main7 {
         System.out.println(hobby);
         System.out.println(date);
         System.out.print(good);
+        input.close();
     }
 }

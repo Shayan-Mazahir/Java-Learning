@@ -10,5 +10,6 @@ public class Main4 {
         float kilometer = input.nextFloat();
         double miles = kilometer / 1.609344;
         System.out.println(kilometer + "km to miles is: " + miles);
+        input.close();
     }
 }

@@ -5,4 +5,7 @@ fooBar(double) -> double (just like last year)
 and add a purpose (new thing)
 purpose: check if num is above or below 10. Return 0.5; if below 1.5 if above
 dont have a print in function
-you should also know about the bit and byte, how much can a data type store in it -- can come in the test 
+you should also know about the bit and byte, how much can a data type store in it -- can come in the test
+static allows us to use a method without making instance for class
+main method is the entery point for the code
+if 2 files have the same directory u can call the function from file 1 into file 2 easily... (see September 16 Main.java and PracticeUtility.java)

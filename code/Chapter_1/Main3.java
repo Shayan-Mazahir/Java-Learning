@@ -27,5 +27,6 @@ public class Main3 {
         String testing = input.nextLine();
         //if u do next() it will only read the first word, and wont read anything after the space, but with nextLine() it will read everything no matter the space or anything
         System.out.println(testing);
+        input.close();
     }
 }

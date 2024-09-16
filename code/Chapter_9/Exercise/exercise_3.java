@@ -21,6 +21,7 @@ class Game {
         int userInput = scanner.nextInt();
         this.noOfGuesses++;
         checkNumber(userInput);
+        scanner.close();
     }
 
     public void checkNumber(int userInput) {

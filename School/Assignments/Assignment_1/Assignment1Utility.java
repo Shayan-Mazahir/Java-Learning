@@ -1,14 +1,14 @@
+package School.Assignments.Assignment_1;
 /*
  * Assignment: Assignment 1
  * Author: Syed Shayan Mazahir
  * Date of Last edit: September 17, 2024
 */
-package School.Assignments.Assignment_1;
 
 public class Assignment1Utility {
 
     //Question 1
-    //welcome() -> 
+    //welcome() -> void
     //purpose: prints "Welcome to ICS4U!"
     public static void welcome() {
         System.out.println("Welcome to ICS4U!");
@@ -31,9 +31,11 @@ public class Assignment1Utility {
         int i = 1;
         // int j = 1;
         int sum = 0;
+        //looping through to ensure that all the values uptil "first" are counted and calculating the multiple
         while (i <= first) {
             int multiples = mult * i;
             int j = 1;
+            //looping through to compare the multiple with all the numbers in the list
             while (j <= first) {
                 if (multiples == j) {
                     sum += multiples;
@@ -47,9 +49,10 @@ public class Assignment1Utility {
 
     //Question 4
     //nthnFibNum(int) -> int
-    //purpose: 
+    //purpose: gives you the nthn fibinacio number
     //10 minutes at most; i had to read and recall what the fibonachi sequence was
     public static int nthFibNum(int n) {
+        //comparing the base cases
         if (n < 1) {
             return -1;
         } if (n == 1) {
@@ -63,6 +66,7 @@ public class Assignment1Utility {
         int current = 0;
         int count = 2; 
         
+        //looping and making sure that all the numbers are being counted and summed up
         while (count < n) {
             current = prev_1 + prev_2;
             prev_2 = prev_1;
@@ -78,6 +82,7 @@ public class Assignment1Utility {
     public static int longestStringLen(String[] strings) {
         int maxLength = 0;
 
+        //looping through the length of the string and checking the length of each string
         for (int i = 0; i < strings.length; i++) {
             if (strings[i].length() > maxLength) {
                 maxLength = strings[i].length();

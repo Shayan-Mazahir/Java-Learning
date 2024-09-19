@@ -1,4 +1,3 @@
-package School.Assignments.Assignment_1;
 /*
  * Assignment: Assignment 1
  * Author: Syed Shayan Mazahir
@@ -29,7 +28,6 @@ public class Assignment1Utility {
     //purpose: checks for the multiple of a number between a given range
     public static int sumOfMultiples(int first, int mult) {
         int i = 1;
-        // int j = 1;
         int sum = 0;
         //looping through to ensure that all the values uptil "first" are counted and calculating the multiple
         while (i <= first) {

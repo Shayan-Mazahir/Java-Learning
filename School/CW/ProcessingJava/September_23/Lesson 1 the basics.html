@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html><head><link rel="stylesheet" href="https://s.brightspace.com/lib/fonts/0.6.1/fonts.css"></head><body style="color: rgb(32, 33, 34); font-family: &quot;Lato&quot;, sans-serif; font-size: 19px;"><p># Lesson 1 - Basics of processing</p>
+<p><br>When you're ready to start your exercise, have a look at `TASK.md`.&nbsp;</p>
+<p>## Header and Comments</p>
+<p>At the top of *all* our programs we will include a header - like a title page. &nbsp;The template will be provided for you but you must make appropriate modifications.</p>
+<p>The header is a type of **comment** - think of it as an annotation to help someone understand what your code is doing.</p>
+<p>For a single comment line you can use `//` at the beginning - the rest of the line will not be interpreted as code.</p>
+<p>For multiple lines you can use `/* (insert text here) */` - just like we have for the header.</p>
+<p>Comments are **extremely important** to explain what's happening, because you are most likely *not* the only one reading your code! &nbsp;You will be expected to write comments for **all exercises and assignments** moving forward.</p>
+<p>## `void setup()`</p>
+<p>This function will be used to do initial setup for our programs, such as setting screen size or background colour. &nbsp;This code will run **one time only**.</p>
+<p>```java<br>size(width, height);<br>```</p>
+<p>This expects two arguments/parameters - the width and height in pixels. &nbsp;We will place this within the curly brackets of `setup()`. &nbsp;</p>
+<p>```java<br>background(greyscale);<br>background(red, green, blue);<br>```</p>
+<p>This will set a background colour. &nbsp;There are many different ways of representing colours, but we'll use greyscale (0-255) or RGB (3 values of 0-255).</p>
+<p>## `void draw()`</p>
+<p>This is where we'll be spending most of our time. &nbsp;This function loops continuously as long as our program is running. Effectively this functions as a while true:.</p>
+<p>### Drawing Basic Shapes</p>
+<p>```java<br>rect(x, y, width, height);<br>```</p>
+<p>Will draw a rectangle with a top left corner at the coordinates `(x,y)`, with a width and height that you provide.</p>
+<p>**IMPORTANT NOTE:** The coordinate system here is different than Math class - `(0,0)` is the top left corner, and y increases going down!</p>
+<p>```java<br>ellipse(x, y, width, height);<br>line(x1, y1, x2, y2);<br>```</p>
+<p>`ellipse()` will draw a circle with **centre** `(x, y)`. &nbsp;`line()` will draw a straight line through the points you provide.</p>
+<p>### All together<br>```java<br>void setup() {<br>&nbsp; &nbsp; size(640, 480);<br>&nbsp; &nbsp; background(150);<br>}<br>void draw() {<br>&nbsp; &nbsp; ellipse(100, 200, 50, 50);<br>}<br>```</p>
+<p>### Additional Shapes</p>
+<p>```java<br>triangle(x1, y1, x2, y2, x3, y3);<br>quad(x1, y1, x2, y2, x3, y3, x4, y4);<br>```</p>
+<p>These work the same as `line()` - setting individual points. &nbsp;But be careful with `quad()` - your teacher will show you the problem with `quad(400, 400, 515, 380, 395, 510, 520, 500);`</p>
+<p>### Colours and More</p>
+<p>```java<br>fill(int, int, int); // fills the inside of your shape with the colour<br>stroke(int, int, int); // changes the outline/stroke colour<br>strokeWeight(int); // changes the thickness of the stroke in pixels<br>noFill(); // take a guess<br>noStroke(); // yup<br>```</p>
+<p>**IMPORTANT NOTE**: For the above properties, they will apply to any shapes until the property is changed again.</p>
+<p>Imagine picking up a red marker - everything you draw will be red until you pick up another marker. &nbsp;And since the `draw()` function loops, you will begin re-drawing previous shapes with that red marker as</p>
+<p><br>Your task: Write code in processing to display an image nearly identical to what is in house.png. All shapes should use variables as values passed to the shapes. When you are done this task, show me the completed work and then try challenge 1.</p></body></html>

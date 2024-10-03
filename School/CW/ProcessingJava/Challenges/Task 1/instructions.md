@@ -1,0 +1,1 @@
+Recreate the sketch in arcs.png using only `arc()`. You can use `ellipse()` or `circle()` for the center points.

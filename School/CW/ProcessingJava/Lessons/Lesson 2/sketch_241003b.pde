@@ -1,18 +1,22 @@
-//Title: Mouse Ball Lesson 2
+//Title: Lesson 2
 //Author: Shayan Mazahir
+//Date of last edit: 05 October, 2024
 
 void setup(){
   size(600, 600);
-  background(200, 150, 0); //grey scale if we have only 1
-  
+  background(200, 150, 0);
+}
+
+//followMouse() -> empty
+//purpose: function for the circle to follow the mouse
+public void followMouse() {
+  circle(mouseX, mouseY, 50);
 }
 
 void draw() {
   background(200, 150, 0); //party mode :D
   fill(255);
-  circle(mouseX, mouseY, 50);
-  
-  //rect(width/2, height/2, mouseX, mouseY);
+  followMouse();
 }
 
 void keyPressed(){

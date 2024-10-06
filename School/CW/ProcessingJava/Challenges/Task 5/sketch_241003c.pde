@@ -1,4 +1,6 @@
-//task 5
+//Task 5
+//Author: Shayan Mazahir
+//Date of Last edit: 5 October, 2025
 void setup(){
   size(600, 600);
   fill(255);

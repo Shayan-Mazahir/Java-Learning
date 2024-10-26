@@ -8,11 +8,18 @@ void setup(){
 
 // mouseInBounds(int xLow, int xHigh, int yLow, int yHigh) -> boolean
 // Purpose: Check if the mouse is within specified bounds.
-public boolean mouseInBounds(int xLow, int xHigh, int yLow, int yHigh){
-  boolean xInbounds = mouseX > xLow && mouseX < xHigh;
-  boolean yInbounds = mouseY > yLow && mouseY < yHigh;
-  return xInbounds && yInbounds;
+public boolean isMouseInsideRectangle(int rectLeft, int rectRight, int rectTop, int rectBottom) {
+  // Check if the mouse is within the x boundaries of the rectangle
+  boolean isMouseWithinX = mouseX > rectLeft && mouseX < rectRight;
+  
+  // Check if the mouse is within the y boundaries of the rectangle
+  boolean isMouseWithinY = mouseY > rectTop && mouseY < rectBottom;
+  
+  // Return true if the mouse is inside both the x and y boundaries
+  return isMouseWithinX && isMouseWithinY;
 }
+
+
 
 // hoverSquare(int x, int y, int sWidth, int sHeight, color shape_color) -> void
 // Purpose: Draw a square that changes color when hovered over.

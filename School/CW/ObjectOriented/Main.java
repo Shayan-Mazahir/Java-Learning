@@ -7,22 +7,31 @@ public class Main {
         Animal a3 = new Animal("Jerry", "mouse");
         Animal a4 = new Animal("Tom", "cat");
 
-//        int x = 6;
-//        float y = 70.4f;
+// //        int x = 6;
+// //        float y = 70.4f;
 
-        System.out.println(a1);
-        System.out.println(a2);
-        System.out.println(a3);
-        System.out.println(a4);
+//         System.out.println(a1);
+//         System.out.println(a2);
+//         System.out.println(a3);
+//         System.out.println(a4);
 
-        //== works for primitive data type .equals() works for the non-primitve data types
-        if (a1.equals(a1)) {
-            System.out.println("Those are the same catformers");
-        }
+//         //== works for primitive data type .equals() works for the non-primitve data types
+//         if (a1.equals(a1)) {
+//             System.out.println("Those are the same catformers");
+//         }
 
-//        if (a1.compareTo()) {
-        a1.talk();
+// //        if (a1.compareTo()) {
+//         a1.talk();
         // a2.talk();
+        System.out.println(a1.toString());
         // a3.talk();
+
+        //String builder examples
+        // StringBuilder mySb = new StringBuilder(); //prints empty; nothing
+        // StringBuilder myNonEmptySb = new StringBuilder("I have meaning, I am not empty");
+        // System.out.println(mySb);
+        // System.out.println(myNonEmptySb);
+
+        System.out.println(a1.meow());
     }
 }

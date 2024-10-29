@@ -1,4 +1,5 @@
 package School.CW.ObjectOriented;
+import java.util.ArrayList;
 
 public class Animal {
     //attributes
@@ -71,8 +72,19 @@ public class Animal {
     //these 3 are already built-in
     //no comment needed
     public String toString() {
-        return "\n" + this.name + " is a catformer who is " + this.age + " years old";
+        StringBuilder my_string = new StringBuilder();
+        my_string.append("\n").append(this.name)
+          .append(" is a catformer who is ")
+          .append(this.age)
+          .append(" years old");
+        return my_string.toString();
     }
+    
+    // StringBuilder my_string = new StringBuilder("\n" + this.name + " is a catformer who is " + this.age + " years old");
+    ArrayList<String> places = new ArrayList<String>();
+    places.add("Buenos Aires");
+    places.add("Córdoba");
+    places.add("La Plata")
 
     //"other" is consistent... i think...
     public boolean equals(Animal other) {
@@ -106,6 +118,12 @@ public class Animal {
 
     private double toKg() {
         return this.weight/2.2;
+    }
+
+    public String meow() {
+        StringBuilder meow_string = new StringBuilder();
+        meow_string.append("meow");
+        return meow_string.toString();
     }
 
 }

@@ -71,7 +71,7 @@ public class Animal {
     //these 3 are already built-in
     //no comment needed
     public String toString() {
-        return this.name + " is a catformer who is " + this.age + " years old";
+        return "\n" + this.name + " is a catformer who is " + this.age + " years old";
     }
 
     //"other" is consistent... i think...
@@ -94,7 +94,7 @@ public class Animal {
         this.age = this.age + 1;
     }
     public void talk() {
-        System.out.println("We were once brothers! Used to fight side by side " + this.name + " and by the way, i weight " + toKg() + " kilos");
+        System.out.println("\n We were once brothers! Used to fight side by side " + this.name + " and by the way, i weight " + toKg() + " kilos");
     }
     public void eat(String food) {
         if(food.equals("human")) {

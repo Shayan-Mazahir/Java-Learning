@@ -1,10 +1,8 @@
-package School.Assignments.Uml_to_Class;
-
 //Assignment: UML to Class
 //Author: Shayan Mazahir
 //Date of Last Edit: 25 October 2024
 public class GameState {
-    
+
     // attributes
     private int numLevels;
     private int currentLevel;
@@ -53,11 +51,11 @@ public class GameState {
     public int compareTo(GameState other_game_state){
         // compare by difficulty, then currentLevel, then numLevels
         if (this.difficulty != other_game_state.difficulty) {
-            return Integer.compare(this.difficulty, other_game_state.difficulty);
+            return 1;
         } else if (this.currentLevel != other_game_state.currentLevel) {
-            return Integer.compare(this.currentLevel, other_game_state.currentLevel);
+            return -1;
         } else {
-            return Integer.compare(this.numLevels, other_game_state.numLevels);
+            return 0;
         }
     }
 
@@ -65,15 +63,14 @@ public class GameState {
     public void increaseDifficulty() {
         this.difficulty += 1;
     }
-    
+
     public void decreaseDifficulty() {
         this.difficulty -= 1;
     }
 
-    public void restartGamey() {
+    public void restartGame() {
         this.difficulty = 1;
         this.currentLevel = 1;
-        this.numLevels = 1;
     }
 
     public void nextLevel() {
@@ -86,3 +83,18 @@ public class GameState {
     }
 }
 
+/*
+* things to ask:
+    public int compareTo(GameState other_game_state){
+        // compare by difficulty, then currentLevel, then numLevels
+        if (this.difficulty != other_game_state.difficulty) {
+            return Integer.compare(this.difficulty, other_game_state.difficulty);
+        } else if (this.currentLevel != other_game_state.currentLevel) {
+            return Integer.compare(this.currentLevel, other_game_state.currentLevel);
+        } else {
+            return Integer.compare(this.numLevels, other_game_state.numLevels);
+        }
+    }
+    * Integer.compare?
+    * Override?
+* */

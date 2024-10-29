@@ -22,7 +22,7 @@ public class Main {
 
 //        if (a1.compareTo()) {
         a1.talk();
-        a2.talk();
-        a3.talk();
+        // a2.talk();
+        // a3.talk();
     }
 }

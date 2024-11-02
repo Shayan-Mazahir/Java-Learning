@@ -21,7 +21,7 @@ public class Main {
         System.out.println(game);
 
         // Restart game
-        game.restartGamey();
+        game.restartGame();
         System.out.println("\nAfter Restarting Game:");
         System.out.println(game);
 

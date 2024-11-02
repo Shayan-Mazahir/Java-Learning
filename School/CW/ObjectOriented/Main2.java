@@ -15,10 +15,7 @@ public class Main2 {
 //        System.out.println(optimus_prime.getColor());
 //        optimus_prime.setWeapons(7);
 //        System.out.println(optimus_prime.getWeapons());
-        optimus_prime.talk();
-
-
-
+        optimus_prime.talk("Bumblebee");
 
     }
 }

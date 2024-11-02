@@ -1,3 +1,5 @@
+package School.Assignments.Uml_to_Class;
+
 //Assignment: UML to Class
 //Author: Shayan Mazahir
 //Date of Last Edit: 25 October 2024

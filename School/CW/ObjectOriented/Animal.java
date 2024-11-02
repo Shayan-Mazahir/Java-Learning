@@ -1,5 +1,4 @@
 package School.CW.ObjectOriented;
-import java.util.ArrayList;
 
 public class Animal {
     //attributes
@@ -81,10 +80,8 @@ public class Animal {
     }
     
     // StringBuilder my_string = new StringBuilder("\n" + this.name + " is a catformer who is " + this.age + " years old");
-    ArrayList<String> places = new ArrayList<String>();
-    places.add("Buenos Aires");
-    places.add("Córdoba");
-    places.add("La Plata")
+
+
 
     //"other" is consistent... i think...
     public boolean equals(Animal other) {

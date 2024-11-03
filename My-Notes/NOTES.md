@@ -213,7 +213,7 @@ static int sum(int x, int ...arr){
         }
     }
 ```
-## Object Oriented Language/Programming
+# Object Oriented Language/Programming
 (It's a concept which explain a way to do programming)
 - So basically OOP means making a big function and having sub functions in that function... (dk why google makes it so complicated)
 
@@ -226,6 +226,23 @@ Instantiation means: creating a spcific example or instance of something
 
 ## Object
 - An object is an instantiation of a class. When a class is defined, a template (info) is defined. Memory is allocated only after object instantiation.
+
+### Object VS Class
+#### Class
+- A class is like a blueprint or template. It defines the properties (also called fields or attributes) and behaviors (methods) that the objects created from this class will have. However, a class itself is not an actual instance of an object—it's just the structure.
+
+For example, you might create an Employee class that has properties like name and id, and behaviors like setName and getName. But the class itself doesn’t represent any specific employee—it’s just the design.
+
+#### Object
+An object is a specific instance of a class. When you create an object, you're using the class as a blueprint to build something concrete. Each object has its own copy of the properties defined in the class, and it can use the methods defined by the class.
+```java
+Employee raza = new Employee();
+```
+- Employee is the class (the blueprint).
+- raza is an object of the Employee class (an actual instance with its own name, id, etc.).
+- instance and object are the same thing
+
+In a nutshell an Object is the variable which has the properties of a Class.
 
 ## Modelling an OOP
 - Noun -> Class -> Employee
@@ -318,8 +335,10 @@ class Employee {
 - The "private" in a class basically means you're making that specific variable or function limited to a specific class/function. [private means current class scope access only](https://canary.discord.com/channels/244230771232079873/244238304613105664/1275531659772559492)
 
 ### Constructors
+//Need more clarification
 - In a single package there can not be more than one Class with the SAME name.
 - A member function used to initialize an object while creating it. So, instead of writing:
+- File name and constructor name should match
 ```java
 Employee name = new MyEmployee();
 ahmed.setName("Ahmed Mustafa");
@@ -347,45 +366,18 @@ System.out.println(ahmed.getId());
 
 ### Syntax
 ```java
-class Main {
-    //code
-}
-class Main2 extends Main {
-    //code
+public Transformers(String name, String color, int weapons, boolean mask, int age) {
+    this.name = name;
+    this.color = color;
+    this.weapons = weapons;
+    this.mask = mask;
+    this.age = age;
 }
 ```
-- You need to add the term `extends` inorder to use `Inheritance`, see example below:
+- Inherited Class
 ```java
-class Base{
-    public int x;
-
-    public int getX() {
-        return x;
-    }
-
-    public void setX(int x) {
-        System.out.println("I am in base and setting x now");
-        this.x = x;
-    }
-
-    public void printMe(){
-        System.out.println("I am a constructor");
-    }
+public Autobots(String name, String color, int weapons, boolean mask, int age) {
+    super(name, color, weapons, mask, age);  // Calls the constructor of Transformers
 }
 ```
-- This is the main class
-
-```java
-class Derived extends Base{
-    public int y;
-
-    public int getY() {
-        return y;
-    }
-
-    public void setY(int y) {
-        this.y = y;
-    }
-}
-```
-- New class; WITH the features of Base class.
+- The super keyword in Java is used to call the constructor of the superclass (in this case, Transformers) from a subclass (like Autobots). It allows the subclass to inherit and initialize the properties defined in the superclass. When you create an instance of Autobots, the super(...) in the Autobots constructor essentially says, “Let Transformers (the mother class) handle setting up its own attributes, since Autobots inherits those.”

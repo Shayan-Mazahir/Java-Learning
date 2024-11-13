@@ -1,32 +1,30 @@
 package School.CW.ObjectOriented.object_practice;
 
-public class Rectangle {
-    // two instance variables, one for height and another for width.
-    //attributes
-    private int width;
-    private int height;
-    private String name;
 
-    public Rectangle() {
-        this.width = this.width;
-        this.height = this.height;
+public class A2_Rectangle {
+    // two instance variables, one for height and another for width.
+    // attributes
+    private int width;
+    private int length;
+
+    public A2_Rectangle() {
+        this.width = 1;
+        this.length = 1;
     }
 
-    public Rectangle(int w, int l) {
+    public A2_Rectangle(int w, int l) {
         this.width = w;
-        this.height = l;
+        this.length = l;
     }
 
     public int area() {
-        int area = this.height * this.height;
+        int area = this.length * this.width;
         return area;
     }
 
-    public int perimeter(int w, int h) {
-        this.width = w;
-        this. height = h;
-        int perimeter = 2 * (this.height * this.width);
-        return perimeter;
+    public int perimeter() {
+        int permineter = 2 * (this.length * this.width);
+        return permineter;
     }
 
     public int getWidth() {
@@ -38,15 +36,15 @@ public class Rectangle {
     }
 
     public int getLength() {
-        return this.height;
+        return this.length;
     }
 
     public void setLength(int l) {
-        this.height = l;
+        this.length = l;
     }
 
     public boolean equals(Rectangle r) {
-        if (r.getLength() == height && r.getWidth() == width)
+        if (r.getLength() == this.length && r.getWidth() == this.width)
             return true;
         else
             return false;
@@ -63,6 +61,6 @@ public class Rectangle {
     }
 
     public String toString() {
-        return "width=" + width + ", length=" + height;
+        return "width=" + this.width + ", length=" + this.length;
     }
 }

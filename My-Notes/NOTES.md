@@ -265,6 +265,7 @@ class Employee {
 }
 ```
    There can only be one "public" class in a file.
+   
 36. We can add functions to classes as well
 ```java
 class Employee {

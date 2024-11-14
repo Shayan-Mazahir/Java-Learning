@@ -96,7 +96,9 @@ _Had to make an md cause i was getting lost in the txt one 💀💀_
 20. `continue`: Skips current iteration
 21. `break`: Exits the loop
 
-## Arrays
+## Arrays and ArraysList
+
+### Arrays
 
 ### With arrays; when using a built-in function like `.length`, make sure that the function "counting" starts from 0 and not 1. If they do -1 from it. See example below:
 ```java
@@ -150,6 +152,40 @@ System.out.print(Arrays.toString(array))
 System.out.print(array[i]) //while i being in some sort of loop
 ```
     This would print the element in the idnex of the array.
+
+### Arrays List (documentation taken from W3School for Arrays List)
+- The ArrayList class is a resizable array, which can be found in the java.util package. The difference between a built-in array and an ArrayList in Java, is that the size of an array cannot be modified (if you want to add or remove elements to/from an array, you have to create a new one). While elements can be added and removed from an ArrayList whenever you want. The syntax is also slightly different:
+```java
+import java.util.ArrayList; // import the ArrayList class
+
+ArrayList<String> cars = new ArrayList<String>(); // Create an ArrayList object
+```
+
+- To add an element in the lsit we use .add():
+```java
+    ArrayList<String> cars = new ArrayList<String>();
+    cars.add("Volvo");
+    cars.add("BMW");
+    cars.add("Ford");
+    cars.add("Mazda");
+    System.out.println(cars);
+```
+
+- To add an element at a specific position:
+```java
+cars.add(0, "Mazda");
+```
+
+- .get(position) - gets an item from the desired index
+- .set(index number, <data type>) - changes the element at a specific index
+- .remove(index) - removes an element from a specific position
+- .clear() - empties the array
+- .size() - tells the size of the array (how many elements in the array)
+- .sort() - sorts the array; u need to import collection as well:
+```java
+import java.util.Collections;
+Collections.sort(cars);
+```
 
 ## Methods (functions)
 

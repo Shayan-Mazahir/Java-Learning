@@ -180,7 +180,7 @@ cars.add(0, "Mazda");
 - .set(index number, <data type>) - changes the element at a specific index
 - .remove(index) - removes an element from a specific position
 - .clear() - empties the array
-- .size() - tells the size of the array (how many elements in the array)
+- .size() - tells the size of the array (how many elements in the array, starts from 1)
 - .sort() - sorts the array; u need to import collection as well:
 ```java
 import java.util.Collections;

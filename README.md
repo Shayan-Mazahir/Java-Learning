@@ -12,11 +12,19 @@ The **Official Documentation** for Java can be found [here](https://docs.oracle.
 > 2. Navigate to the file where your code (.java) file is located
 > 3. Run:
 ```
-javac <file_name>
+javac <file_name>.java 
+```
+or
+```
+javac *.java
 ```
 > 4. Then run:
 ```
-java <fille_name>
+java <fille_name>.java
+```
+_Or, if you want to make your life more easier while using the cmd, you could do:_
+```
+javac <file_name>.java && java <file_name>.java
 ```
 - Side note, if you're on Visual Studio Code and are following [this](https://code.visualstudio.com/docs/languages/java) tutorial, press F5 to run; it will save you countless hours of problems.... 
 # Copyright

@@ -6,3 +6,8 @@
 6. We are going to use the element method for arrays?
 7. Are we gonna learn OOPS?
 8. Will we use the default modelling? (README.MD- Modelling an OOP)
+
+---------------------------------
+
+1. Strings: PPT: in the ppt it says it compares the UNICODE... are we supposed to learn the UNICODES? Or how are we supposed to know them?
+2. How does indexOf works? + lastIndexOf
